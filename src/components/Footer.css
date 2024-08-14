@@ -1,0 +1,50 @@
+.footer {
+   
+    padding: 20px;
+    text-align: center;
+    color:black;
+  }
+  
+  .cta-button {
+    background-color: #d96320;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .cta-button:hover {
+  
+    background-color: #fff;
+    color: #f47424;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  .footer {
+    padding: 20px;
+    text-align: center;
+   
+    color: #fff;
+    font-size: 0.9rem;
+  }
+  
+  .footer p {
+    margin: 0;
+    color: black;
+  }
+  
+
+  @media (max-width: 768px) {
+    .footer {
+      padding: 15px;
+      font-size: 0.8rem;
+    }
+  }
+    

@@ -1,0 +1,99 @@
+.evaluation-form-container {
+  flex: 1 1 30%; 
+  background-color: #2176a4;
+  padding: 20px;
+  border-radius: 8px;
+  color: #fff;
+  min-width: 300px; 
+
+  text-align: center;
+}
+
+.evaluation-form-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.evaluation-form-container p {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.evaluation-form-container .value {
+  font-weight: bold;
+}
+
+.evaluation-form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.evaluation-form-container form input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.evaluation-form-container form input::placeholder {
+  color: #555;
+}
+
+.evaluation-form-container form button {
+  padding: 12px;
+  background-color: #f58500;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.evaluation-form-container form button:hover {
+  background-color: #e07200;
+}
+
+.privacy-notice {
+  font-size: 0.8rem;
+  margin-top: 15px;
+}
+
+.contact-info {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+
+@media (max-width: 768px) {
+  .evaluation-form-container {
+    margin-bottom: 20px; 
+  }
+}
+.red{
+  background-color: #5cafdb;
+  padding: 20px;
+  text-align: left;
+  border-radius: 10px;
+}
+.btn{
+  background-color:#f47424;;
+  color:  #fff;
+ align-items: center;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background-color 0.3s, color 0.3s;
+}
+.btn:hover {
+  background-color: #fff;
+  color: #d96320;
+
+}

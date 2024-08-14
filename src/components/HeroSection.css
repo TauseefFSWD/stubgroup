@@ -1,0 +1,41 @@
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; 
+  padding: 40px;
+  background-color: #f8f8f8;
+  flex-wrap: nowrap; 
+}
+
+.hero-content {
+  flex: 1 1 60%; 
+  margin-right: 20px;
+  min-width: 300px;
+}
+
+.evaluation-form-container {
+  flex: 1 1 30%; 
+  background-color: #2a9bd9;
+  padding: 20px;
+  border-radius: 8px;
+  color: #fff;
+  min-width: 300px; 
+}
+.ranking-image{
+  width: max-content;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+  }
+
+  .hero-content {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .evaluation-form-container {
+    margin-bottom: 20px;
+  }
+}
